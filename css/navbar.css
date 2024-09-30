@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+ul.navbar {
+    list-style-type: none;
+    padding: 0;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+}
+
+.nav-left {
+    display: flex; 
+    margin-left: 20px; /* Move nav-left to the right */
+}
+
+ul.navbar li {
+    position: relative;
+    margin-right: 15px; /* Space out the list items */
+}
+
+ul.navbar li a {
+    padding: 14px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+}
+
+ul.navbar li a:hover {
+    background-color: #111;
+}
+
+/* Dropdown Menu Styling */
+ul.navbar .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+ul.navbar .dropdown-content li a {
+    color: black;
+    padding: 12px 16px;
+}
+
+ul.navbar .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+ul.navbar .dropdown-content li a:hover {
+    background-color: #ddd;
+}
+
+
+/* Search Container Styling */
+.search-container {
+    display: flex; /* Use flexbox for the search container */
+    align-items: center; /* Center items vertically */
+    margin-right: 5px;
+    margin-bottom: 2px;
+}
+
+.search-container input[type="text"] {
+    padding: 8px; /* Add padding */
+    margin-right: 5px; /* Space between input and button */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.search-container button {
+    padding: 8px 12px; /* Add padding to the button */
+    background-color: #f39c12; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.search-container button:hover {
+    background-color: #e67e22; /* Darker button color on hover */
+}

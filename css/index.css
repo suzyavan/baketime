@@ -1,0 +1,56 @@
+h1 {
+text-align:center;
+}
+
+.subscribe {
+    text-align: center; /* Center text and inline elements */
+    margin: 20px auto; /* Optional: Add vertical spacing and center the section */
+    max-width: 500px; /* Optional: Set a max width for better readability */
+}
+
+.subscribe form {
+    display: flex; /* Use flexbox for form elements */
+    justify-content: center; /* Center the form elements horizontally */
+    margin-top: 10px; /* Optional: Add spacing above the form */
+}
+
+.subscribe input[type="email"] {
+    padding: 10px; /* Add padding for input */
+    margin-right: 10px; /* Space between input and button */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.subscribe button {
+    padding: 10px 15px; /* Add padding for the button */
+    border: none; /* Remove border */
+    background-color: #f39c12; /* Button background color */
+    color: white; /* Button text color */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.subscribe button:hover {
+    background-color: #e67e22; /* Darker button color on hover */
+}
+
+/* Center the footer content */
+footer {
+    text-align: center; /* Center text */
+    padding: 20px 0; /* Optional: Add padding for spacing */
+    color: rgb(0, 0, 0); /* Optional: Text color */
+}
+
+/* Social links */
+footer .social-links {
+    display: flex; /* Use flexbox for horizontal alignment */
+    justify-content: center; /* Center the icons */
+    margin-top: 10px; /* Optional: Add spacing above icons */
+}
+
+/* Optional: Social icons */
+footer .social-links img.social-icon {
+    width: 24px;  /* Size of icons */
+    height: 24px; /* Size of icons */
+    margin: 0 5px; /* Spacing between icons */
+}
