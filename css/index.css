@@ -1,3 +1,7 @@
+body {
+    cursor: url("../images/cake3.cur"), auto; /* Ensure this path is still correct */
+}
+
 h1 {
 text-align:center;
 }

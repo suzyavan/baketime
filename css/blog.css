@@ -1,0 +1,46 @@
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    
+} 
+
+.row {
+    width: 100%; 
+    overflow: hidden; /* Clear floats */
+}
+
+.leftcolumn { 
+    float: left; /* Float to the left */
+    width: 70%; /* 70% width for the main content */
+    padding: 20px; 
+    box-sizing: border-box; /* Include padding in width calculation */
+} 
+
+.rightcolumn {
+    float: right; /* Float to the right */
+    width: 25%; /* 25% width for the right column */
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in width calculation */
+    background-color: #f1f1f1; /* Optional: Background color */
+}
+
+/* Style for articles inside the container */
+article {
+    margin-bottom: 20px; 
+    padding: 10px 20px; 
+    border: 1px solid rgb(145, 145, 145); 
+    background-color: #f9f9f9;
+}
+
+/* Ensure the text inside articles is justified */
+article p { 
+    text-align: justify; 
+} 
+
+/* Clear floats after the left and right columns */
+body::after {
+    content: "";
+    display: table;
+    clear: both;
+}
