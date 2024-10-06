@@ -2,11 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bake Time: Recipes</title>
-    <link href="css/navbar.css" type="text/css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    <link href="../css/recipes.css" type="text/css" rel="stylesheet" />    
+    <link href="../css/navbar.css" type="text/css" rel="stylesheet" />
+    <link href="../css/index.css" type="text/css" rel="stylesheet" />
+    <link href="../css/search.css" type="text/css" rel="stylesheet" />
+
 </head>
+
 <body>
+ <h1>Bake Time</h1>
+
+    <ul class="navbar">
+        <div class="nav-left">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../pages/blog.html">Blog</a></li>
+            <li><a href="../pages/recipes.html">Recipes</a></li>
+            <li><a href="../pages/generator.html">Random Recipe Generator</a></li>
+            <li class="dropdown">
+                <a href="../pages/about.html" class="dropbtn">About Us</a>
+                <ul class="dropdown-content">
+                    <li><a href="../pages/contact.html">Contact</a></li>
+                </ul>
+            </li>
+        </div>
+
+        <div class="search-container">
+            <form action="search-results.html" method="GET">
+                <input type="text" placeholder="Search for anything... on this website" name="query">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </ul>
 
     <!-- Search bar for baking recipes -->
     <h1>Search for Baking Recipes</h1>
@@ -15,5 +43,23 @@
     <!-- Google CSE script -->
     <script async src="https://cse.google.com/cse.js?cx=5498fc611bc234416"></script>
 
-</body>
-</html>
+    <footer>
+        <p>Follow us on social media!</p>
+        <div class="social-links">
+            <a href="https://facebook.com" target="_blank">
+                <img src="../images/facebook.png" alt="Facebook" class="social-icon">
+            </a> 
+            <a href="https://instagram.com" target="_blank">
+                <img src="../images/instagram.png" alt="Instagram" class="social-icon">
+            </a> 
+            <a href="https://pinterest.com" target="_blank">
+                <img src="../images/pinterest.png" alt="Pinterest" class="social-icon">
+            </a>
+        </div>
+    </footer>
+            </div>
+        </div>
+    </body>
+    
+    </html>
+    
