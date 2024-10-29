@@ -1,0 +1,39 @@
+.row {
+    width: 100%; 
+    overflow: hidden; 
+}
+
+.leftcolumn { 
+    float: left; 
+    width: 70%; 
+    padding: 20px; 
+    box-sizing: border-box; 
+} 
+
+.rightcolumn {
+    float: right; 
+    width: 25%; 
+    padding: 20px;
+    box-sizing: border-box; 
+    background-color: #f1f1f1; 
+}
+
+
+article {
+    margin-bottom: 20px; 
+    padding: 10px 20px; 
+    border: 1px solid rgb(145, 145, 145); 
+    background-color: #f9f9f9;
+}
+
+
+article p { 
+    text-align: justify; 
+} 
+
+
+body::after {
+    content: "";
+    display: table;
+    clear: both;
+}
