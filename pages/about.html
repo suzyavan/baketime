@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bake Time: Recipes</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    <link href="../css/about.css" type="text/css" rel="stylesheet" />    
+    <link href="../css/navbar.css" type="text/css" rel="stylesheet" />
+    <link href="../css/footer.css" type="text/css" rel="stylesheet" />
+    <link href="../css/contact.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <h1>Bake Time</h1>
+        <nav>
+            <ul class="navbar">
+                <div class="nav-left">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../pages/blog.html">Blog</a></li>
+                    <li><a href="../pages/recipes.html">Recipes</a></li>
+                    <li><a href="../pages/generator.html">Random Recipe Generator</a></li>
+                    <li><a href="../pages/about.html">About Us</a></li>
+                </div>
+                <div class="search-container">
+                    <form action="search-results.html" method="GET">
+                        <input type="text" placeholder="Search for anything... on this website" name="query">
+                        <button type="submit">Search</button>
+                    </form>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    </body>
+
+    <main>
+        <section class="about-us">
+            <h2>About Us</h2>
+            <p>Welcome to Bake Time, your ultimate destination for all things baking! Whether you're a seasoned baker or just starting out, we believe that baking should be fun, accessible, and a way to express creativity. Our mission is to provide you with a treasure trove of delicious recipes, helpful tips, and a community that shares your passion for baking. We aim to inspire bakers of all levels to create delightful treats that bring joy to themselves and others.</p>
+
+            <h3>Our Blog</h3>
+            <p>Dive into our blog, where we share insightful articles, baking techniques, and the latest trends in the baking world. From baking hacks to inspirational stories, our blog is a place for every baking enthusiast to learn and connect. We feature guest posts from experienced bakers, interviews with culinary experts, and step-by-step tutorials to help you master new skills. Our goal is to keep you informed and inspired, making your baking journey enjoyable and fulfilling.</p>
+
+            <h3>Random Recipe Generator</h3>
+            <p>Feeling adventurous? Our Random Recipe Generator is here to spark your creativity! Simply click a button, and let us surprise you with a new recipe to try. It’s a fun way to discover new desserts and challenge yourself in the kitchen! We constantly update our recipe database to include seasonal ingredients and trending flavors, ensuring that you always have something exciting to bake. Join us in exploring the world of baking one random recipe at a time!</p>
+
+            <h3>Contests and Community</h3>
+            <p>Join our baking contests to showcase your skills and creativity! Participate in our themed contests, win exciting prizes, and gain recognition among fellow bakers. We encourage friendly competition, where everyone can share their unique creations and inspire one another. Our contests not only celebrate individual talent but also strengthen our community bonds. Let's make baking a shared adventure filled with joy, learning, and a sprinkle of healthy competition.</p>
+
+            <h3>Join Us!</h3>
+            <p>At Bake Time, we value every member of our community. We invite you to join us in our baking journey. Share your creations, join discussions, and let’s make the world a sweeter place together! Sign up for our newsletter to stay updated on the latest recipes, blog posts, and contest announcements. Together, we can build a vibrant community where every baker feels welcomed and inspired to explore their passion for baking.</p>
+        </section>
+
+        <section class="contact-us">
+            <h2>Contact Us</h2>
+            <p>Have questions, suggestions, or just want to say hello? We'd love to hear from you!</p>
+            
+            <form action="https://formspree.io/f/xovqjzap" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Your Name">
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Your Email">
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required placeholder="Your Message"></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+            
+            <p>You can also reach us at: <a href="mailto:baketimesuzy@gmail.com">baketimesuzy@gmail.com</a></p>
+            
+            <p>Follow us on social media for updates!</p>
+            <div class="social-links">
+                <a href="https://facebook.com" target="_blank">
+                    Facebook
+                    <img src="../images/facebook.png" alt="Facebook" class="social-icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    Instagram
+                    <img src="../images/instagram.png" alt="Instagram" class="social-icon">
+                </a>
+                <a href="https://pinterest.com" target="_blank">
+                    Pinterest
+                    <img src="../images/pinterest.png" alt="Pinterest" class="social-icon">
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Bake Time. All rights reserved.</p>
+    </footer>
+
+</html>
