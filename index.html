@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bake Time: Home Page</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    <link href="../css/index.css" type="text/css" rel="stylesheet" />    
+    <link href="../css/navbar.css" type="text/css" rel="stylesheet" />
+    <link href="../css/footer.css" type="text/css" rel="stylesheet" />
+    <script async src="https://cse.google.com/cse.js?cx=11340f8d2f88243b2"> </script>
+</head>
+
+<body>
+ <h1>Bake Time</h1>
+ 
+    <ul class="navbar">
+    <div class="nav-left">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../pages/blog.html">Blog</a></li>
+        <li><a href="../pages/generator.html">Random Recipe Generator</a></li>
+        <li><a href="../pages/about.html">About Us</a></li>
+
+    </div>
+
+    <div class="search-container">
+        <form action="../pages/results.html" method="GET">
+            <input type="text" placeholder="Search for anything... on this website" name="query">
+            <button type="submit">Search</button>
+        </form>
+    </div>
+    </ul>
+</body>
+<main>
+    <div class="content-container">
+        <section class="featured-recipes"> 
+            <h2>Featured Recipes</h2>
+            <div class="recipe-card">
+                <h3>Chocolate Cake</h3>
+                <img src="../images/choco.jpg" alt="Chocolate Cake">
+                <p>Indulge in this rich and moist chocolate cake, perfect for any occasion!</p>
+                <a href="https://sallysbakingaddiction.com/triple-chocolate-layer-cake/">View Recipe</a>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <h2>What Our Bakers Say</h2>
+            <blockquote>
+                <p>"The chocolate cake recipe was a hit at my party! Thank you, Bake Time!"</p>
+                <cite>- Sarah M.</cite>
+            </blockquote>
+        </section>
+
+        <section class="baking-tips">
+            <h2>Baking Tips & Tricks</h2>
+            <p>Check out our top baking tips to make your baking experience smoother and more enjoyable!</p>
+            <ul>
+                <li>Always preheat your oven for even baking.</li>
+                <li>Use room temperature ingredients for better mixing.</li>
+                <li>Don’t rush your rising dough; patience is key!</li>
+            </ul>
+        </section>
+
+        <section class="submit-recipe">
+            <h2>Share Your Recipe</h2>
+            <p>Have a favorite recipe? Submit it to be featured on our site!</p>
+            <form action="mailto:baketimesuzy@gmail.com" method="POST" enctype="text/plain">
+                <input type="text" name="recipe-name" required placeholder="Recipe Name">
+                <textarea name="recipe-details" required placeholder="Recipe Details"></textarea>
+                <button type="submit">Submit Recipe</button>
+            </form>
+        </section>
+
+        <section class="baking-challenges">
+            <h2>Baking Challenges</h2>
+            <p>Join our monthly baking challenges and share your creations with us!</p>
+            <p>This month: Bake a pie using any fruit!</p>
+        </section>
+    </div>
+</main>
+
+
+
+<div class="subscribe">
+    <section class="subscribe"></section>
+        <h2>Join Our Baking Community</h2>
+        <p>Get the latest recipes and blog updates delivered straight to your inbox!</p>
+        <form>
+            <input type="email" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+</div>
+
+<footer>
+    <p>Follow us on social media for updates!</p>
+        
+    <div class="social-links">
+        <a href="https://facebook.com" target="_blank">
+            Facebook
+            <img src="../images/facebook.png" alt="Facebook" class="social-icon">
+        </a>
+        <a href="https://instagram.com" target="_blank">
+            Instagram
+            <img src="../images/instagram.png" alt="Instagram" class="social-icon">
+        </a>
+        <a href="https://pinterest.com" target="_blank">
+            Pinterest
+            <img src="../images/pinterest.png" alt="Pinterest" class="social-icon">
+        </a>
+    </div>
+</footer>
+
+</html>
