@@ -11,6 +11,8 @@
 } 
 
 .rightcolumn {
+    margin-top: 20px;
+    margin-right: 20px;
     float: right; 
     width: 25%; 
     padding: 20px;
@@ -36,4 +38,13 @@ body::after {
     content: "";
     display: table;
     clear: both;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
 }

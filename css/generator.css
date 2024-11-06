@@ -88,3 +88,39 @@ footer {
   text-align: center;
   margin-top: 20px;
 }
+
+
+.recipe-search{
+  max-width: 900px; 
+  flex-direction: column; 
+  align-items: center; 
+  margin: 20px auto;
+  text-align: center; 
+}
+
+.gcse-search {
+  max-width: 900px; 
+  margin: 0 auto;
+}
+
+
+.gcse-search input.gsc-input {
+  padding: 10px;
+  width: 300px;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  margin-right: 10px;
+}
+
+.gcse-search button.gsc-search-button {
+  background-color: #f39c12;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.gcse-search button.gsc-search-button:hover {
+  background-color: #e67e22;
+}
