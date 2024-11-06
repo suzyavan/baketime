@@ -1,12 +1,6 @@
-.carousel-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-
 #card-container {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: flex-start;
   margin: 0;
   padding: 0;
@@ -15,7 +9,7 @@
 
 .card {
   position: relative;
-  width: 180px;
+  width: 160px;
   height: 300px;
   perspective: 1000px;
   margin: 0 10px;
@@ -57,8 +51,8 @@
   color: #333;
   font-size: 18px;
   font-weight: bold;
-  background-color: rgba(255, 255, 255, 0.8);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  background-color: #ffffffc8;
+  box-shadow: 0 2px 5px #00000033;
 }
 
 .card.flipped .card-front {
@@ -84,11 +78,6 @@ button:hover {
   background-color: #0056b3;
 }
 
-footer {
-  text-align: center;
-  margin-top: 20px;
-}
-
 
 .recipe-search{
   max-width: 900px; 
@@ -102,7 +91,6 @@ footer {
   max-width: 900px; 
   margin: 0 auto;
 }
-
 
 .gcse-search input.gsc-input {
   padding: 10px;

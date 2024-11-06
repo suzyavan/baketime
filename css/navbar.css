@@ -2,14 +2,13 @@ body {
     cursor: url("../images/cake3.cur"), auto;	
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    margin: 0;
-    padding: 0;
     background-color: #f8f8f8; 
     color: #333;
 }
 
 h1, h2 {
     color: #a0522d; 
+    text-align:center;
 }
 
 header {
@@ -17,10 +16,8 @@ header {
     text-align: center;
 }
 
-h1 {
-    text-align:center;
-    }
-    
+
+
 ul.navbar {
     list-style-type: none;
     padding: 0;
@@ -31,8 +28,12 @@ ul.navbar {
 }
 
 .nav-left {
-    display: flex; 
     margin-left: 20px;
+}
+
+.nav-right {
+    display: flex;
+    margin-right: 20px;
 }
 
 ul.navbar li {
@@ -52,52 +53,15 @@ ul.navbar li a:hover {
 }
 
 
-ul.navbar .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+.nav-left .title a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 20px;
 }
 
-ul.navbar .dropdown-content li a {
-    color: black;
-    padding: 12px 16px;
+.nav-left .title a:hover {
+    background-color: #000000; 
 }
 
-ul.navbar .dropdown:hover .dropdown-content {
-    display: block;
-}
-
-ul.navbar .dropdown-content li a:hover {
-    background-color: #ddd;
-}
-
-
-
-.search-container {
-    display: flex; 
-    align-items: center;
-    margin-right: 5px;
-    margin-bottom: 2px;
-}
-
-.search-container input[type="text"] {
-    padding: 8px; 
-    margin-right: 5px; 
-    border: none; 
-    border-radius: 4px; 
-}
-
-.search-container button {
-    padding: 8px 12px; 
-    background-color: #f39c12; 
-    color: white; 
-    border: none; 
-    border-radius: 4px; 
-    cursor: pointer; 
-}
-
-.search-container button:hover {
-    background-color: #e67e22; 
-}
