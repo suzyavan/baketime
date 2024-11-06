@@ -7,31 +7,25 @@
     <link href="../css/index.css" type="text/css" rel="stylesheet" />    
     <link href="../css/navbar.css" type="text/css" rel="stylesheet" />
     <link href="../css/footer.css" type="text/css" rel="stylesheet" />
-    <script async src="https://cse.google.com/cse.js?cx=11340f8d2f88243b2"> </script>
 </head>
 
 <body>
- <h1>Bake Time</h1>
- 
     <ul class="navbar">
-    <div class="nav-left">
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="../pages/blog.html">Blog</a></li>
-        <li><a href="../pages/generator.html">Random Recipe Generator</a></li>
-        <li><a href="../pages/about.html">About Us</a></li>
+        <div class="nav-left">
+            <li class="title"><a href="../index.html">Bake Time</a></li>
+        </div>
 
-    </div>
-
-    <div class="search-container">
-        <form action="../pages/results.html" method="GET">
-            <input type="text" placeholder="Search for anything... on this website" name="query">
-            <button type="submit">Search</button>
-        </form>
-    </div>
+        <div class="nav-right">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../pages/blog.html">Blog</a></li>
+            <li><a href="../pages/generator.html">Random Recipe Generator</a></li>
+            <li><a href="../pages/about.html">About Us</a></li>
+        </div>
     </ul>
 </body>
+
+
 <main>
-    <div class="content-container">
         <section class="featured-recipes"> 
             <h2>Featured Recipes</h2>
             <div class="recipe-card">
@@ -39,10 +33,9 @@
                 <img src="../images/choco.jpg" alt="Chocolate Cake">
                 <p>Indulge in this rich and moist chocolate cake, perfect for any occasion!</p>
                 <a href="https://sallysbakingaddiction.com/triple-chocolate-layer-cake/">View Recipe</a>
-            </div>
         </section>
 
-        <section class="testimonials">
+        <section class="reviews">
             <h2>What Our Bakers Say</h2>
             <blockquote>
                 <p>"The chocolate cake recipe was a hit at my party! Thank you, Bake Time!"</p>
@@ -65,8 +58,8 @@
             <p>Have a favorite recipe? Submit it to be featured on our site!</p>
             <form action="mailto:baketimesuzy@gmail.com" method="POST" enctype="text/plain">
                 <input type="text" name="recipe-name" required placeholder="Recipe Name">
-                <textarea name="recipe-details" required placeholder="Recipe Details"></textarea>
-                <button type="submit">Submit Recipe</button>
+                <br><textarea name="recipe-details" required placeholder="Details"></textarea>
+                <br><button type="submit">Submit Recipe</button>
             </form>
         </section>
 
@@ -77,8 +70,6 @@
         </section>
     </div>
 </main>
-
-
 
 <div class="subscribe">
     <section class="subscribe"></section>
