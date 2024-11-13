@@ -17,7 +17,6 @@ header {
 }
 
 
-
 ul.navbar {
     list-style-type: none;
     padding: 0;
@@ -25,6 +24,7 @@ ul.navbar {
     display: flex;
     justify-content: space-between; 
     align-items: center; 
+    border-radius: 15px; 
 }
 
 .nav-left {

@@ -4,13 +4,14 @@
   align-items: flex-start;
   margin: 0;
   padding: 0;
-  flex-wrap: wrap;
+  flex-wrap: nowrap; /* Prevents wrapping */
+  overflow-x: auto;  /* Adds horizontal scrolling if cards overflow */
 }
 
 .card {
   position: relative;
   width: 160px;
-  height: 300px;
+  height: 250px;
   perspective: 1000px;
   margin: 0 10px;
   box-sizing: border-box;
